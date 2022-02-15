@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialCartState = { items: [], totalQuantity: 0 };
-
+//*using redux tool kit for rendering
 const cartSlice = createSlice({
   name: "cart",
   initialState: initialCartState,
